@@ -1,0 +1,12 @@
+.about-first-part{
+    height: 100%;
+    overflow: hidden;
+    background-image: url("../images/ensenadaNoText.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}

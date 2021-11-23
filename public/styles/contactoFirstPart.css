@@ -1,0 +1,13 @@
+.contacto-first-part{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-image: url("../images/cancun2.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    
+}

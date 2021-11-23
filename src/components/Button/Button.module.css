@@ -1,0 +1,11 @@
+.btn {
+    box-shadow: var(boxShadow);
+}
+
+.default {
+    color: red;
+}
+
+.secondary {
+    color: green;
+}

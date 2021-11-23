@@ -1,0 +1,113 @@
+.about-fifth-part{
+    box-sizing: border-box;
+    width: 100%;
+    height: 80%;
+    background-color: black;
+    padding: 0 20%;
+    color: white;
+}
+
+.about-form-grid{
+    display: grid;
+    grid-auto-rows: 1fr;
+    row-gap:5%;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.about-form-grid  h1{
+    text-align: center;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 2.1rem;
+    letter-spacing: 0.12rem;
+    margin: 0;
+}
+
+.about-form-grid  h6{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-weight: 100;
+    font-size: 1.5rem;
+    letter-spacing: 0.12rem;
+    margin: 0;
+}
+
+.about-form-input-container{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    letter-spacing: 0.11rem;
+}
+
+.about-form-input-container input{
+    background-color: transparent;
+    border: solid white 1px;
+    width: 95%;
+    height: 55%;
+}
+
+.about-form-input-container button{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    color: white;
+    background-color: transparent;
+    border: solid 4px white;
+    width: 20%;
+    height: 3rem;
+    border-radius: 10px;
+}
+
+#about-form-row1-col1{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+#about-form-row2-col1{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+#about-form-row2-col2{
+    padding-left: 2.5%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#about-form-row3-col1{
+    padding-right: 2.5%;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+#about-form-row3-col2{
+    padding-left: 2.5%;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+#about-form-row4-col1{
+    padding-right: 2.5%;
+    grid-column: 1/3;
+    grid-row: 4/7;
+}
+
+#about-form-row5-col1{
+    grid-column: 1/3;
+    grid-row: 7/8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#message{
+    height: 90%;
+    width: 100%;
+}

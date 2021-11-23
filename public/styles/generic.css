@@ -1,0 +1,17 @@
+.black-gradient-bottom{
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    height: 40%;
+    background-image: linear-gradient( rgba(255,0,0,0), black);
+}
+
+.black-gradient-top{
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    height: 40%;
+    background-image: linear-gradient( black, trasnsparent);
+}

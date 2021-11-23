@@ -1,0 +1,31 @@
+/* Third Part */
+.third-part{
+    position: relative;
+    height: 80%;
+    overflow: hidden;
+    background-image: url("../images/cancun1.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.upper-gradient-2{
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    height: 40%;
+    background-image: linear-gradient( black, transparent);
+}
+
+.lower-gradient-2{
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    height: 40%;
+    background-image: linear-gradient( transparent, black);
+}

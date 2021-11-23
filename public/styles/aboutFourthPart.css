@@ -1,0 +1,16 @@
+.about-fourth-part{
+    position: relative;
+    height: 80%;
+    overflow: hidden;
+    background-image: url("../images/carretera2.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.about-second-part img{
+    width: 100%;
+}
