@@ -1,0 +1,50 @@
+.sobre-mi-first-part{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+
+.half-title-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.left-half-side-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    color: white;
+}
+
+.empty-half-side-container{
+    height: 100%;
+    width: 100%;
+}
+
+.half-side-title-container{
+    text-align: right;
+}
+
+.half-side-title-container h1{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 5rem;
+    letter-spacing: 0.4rem;
+    margin: 1% 0;
+}
+
+.half-side-title-container h3{
+    white-space: nowrap;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 2.5rem;
+    letter-spacing: 0.2rem;
+    margin: 0;
+}
+
+

@@ -22,6 +22,9 @@ import AboutFifthPart from './AboutFifthPart.jsx';
 import ContactoFirstPart from './ContactoFirstPart';
 import ContactoSecondPart from './ContactoSecondPart';
 
+import SobreMiFirstPart from './SobreMiFirstPart.jsx';
+import SobreMiSecondPart from './SobreMiSecondPart.jsx';
+
 import {
     BrowserRouter as Router,
     Switch,
@@ -62,7 +65,7 @@ function App(){
                     </div>
 
                     <div className="navbar-item">
-                        <NavLink exact to="/viaja" activeClassName="active-link">SOBRE MI</NavLink>
+                        <NavLink exact to="/sobre_mi" activeClassName="active-link">SOBRE MI</NavLink>
                     </div>
 
                     <div className="navbar-item">
@@ -80,6 +83,9 @@ function App(){
                     </Route>
                     <Route path="/servicios">
                         <Servicios />
+                    </Route>
+                    <Route path="/sobre_mi">
+                        <SobreMi />
                     </Route>
                     <Route path="/contacto">
                         <Contacto />
@@ -124,6 +130,13 @@ function Inicio() {
       )
   }
 
-  
+  function SobreMi(){
+      return(
+          <div className="sobreMi">
+              <SobreMiFirstPart />
+              <SobreMiSecondPart />
+          </div>
+      )
+  }
 
 export default App
