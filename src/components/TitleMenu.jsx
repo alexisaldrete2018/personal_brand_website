@@ -7,13 +7,13 @@ import {
     NavLink
   } from "react-router-dom";
 
-function TitleMenu(){
+function TitleMenu(props){
     return(
         <div className="title-menu-container">
             <Router>
                 <div className="title-menu-wrapper">
                     <div className="title-menu-item" id="title-menu-row1"> 
-                        <h2>GALERIA</h2>
+                        <h2>{props.title}</h2>
                     </div>
                     <div className="title-menu-item" id="title-menu-row2-col1">
                         <NavLink exact to="/galeria/ag" activeClassName="title-menu-active-link">
