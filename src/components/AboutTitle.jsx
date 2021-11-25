@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 function AboutTitle(props){
     return(
@@ -11,4 +11,4 @@ function AboutTitle(props){
     )
 }
 
-export default AboutTitle
+export default AboutTitle;

@@ -24,6 +24,8 @@ import ContactoSecondPart from './ContactoSecondPart';
 
 import SobreMiFirstPart from './SobreMiFirstPart.jsx';
 import SobreMiSecondPart from './SobreMiSecondPart.jsx';
+import SobreMiThirdPart from './SobreMiThirdPart.jsx';
+
 
 import {
     BrowserRouter as Router,
@@ -135,6 +137,7 @@ function Inicio() {
           <div className="sobreMi">
               <SobreMiFirstPart />
               <SobreMiSecondPart />
+              <SobreMiThirdPart />
           </div>
       )
   }
