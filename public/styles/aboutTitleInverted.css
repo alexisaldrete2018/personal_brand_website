@@ -1,0 +1,50 @@
+:root{
+    --height: 20%;
+    --direction: left;
+}
+
+.about-title-inverted-section{
+    display: flex;
+    align-items: var(--direction);
+    justify-content: var(--direction);
+    height: var(--height);
+    width: 100%;
+}
+
+.about-title-inverted-section h1{
+    display: inline;
+    margin: 0;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    color: white;
+    font-size:3.3rem;
+}
+
+.about-title-inverted-container{
+    margin:0 10%;
+    height: 100%;
+}
+
+#title-inverted-1{
+    font-weight: 100;
+    letter-spacing: 0.17rem;
+}
+
+#title-inverted-2{
+    font-weight: 600;
+    letter-spacing: 0.17rem;
+}
+
+.about-title-inverted-section hr{
+    width: 50px;
+    height: 4px;
+    border: none;
+    background-color: white;
+    color: white;
+}
+
+.my-passions-first-part p{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    color: white;
+    font-size:2rem;
+    margin: 0 20%;
+}
