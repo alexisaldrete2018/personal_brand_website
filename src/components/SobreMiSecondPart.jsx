@@ -1,4 +1,5 @@
 import React from "react";
+import AboutTitleInverted from "./AboutTitleInverted";
 
 function SobreMiSecondPart(){
     return(
@@ -8,9 +9,7 @@ function SobreMiSecondPart(){
 
                 <div className="title-logo-container">
 
-                    <div className="title-logo-title-container">
-                        <h3>WHAT'S MY STORY?</h3>
-                    </div>
+                    <AboutTitleInverted height="30%" direction="center" titleInverted1="What's" titleInverted2="my Story"  />
 
                     <div className="title-logo-logo-container">
                         <img src={process.env.PUBLIC_URL + '/images/logoNoText.png'} alt="logo" />
