@@ -25,6 +25,7 @@ import ContactoSecondPart from './ContactoSecondPart';
 import SobreMiFirstPart from './SobreMiFirstPart.jsx';
 import SobreMiSecondPart from './SobreMiSecondPart.jsx';
 import SobreMiThirdPart from './SobreMiThirdPart.jsx';
+import SobreMiFourthPart from './SobreMiFourthPart.jsx';
 
 
 import {
@@ -138,6 +139,7 @@ function Inicio() {
               <SobreMiFirstPart />
               <SobreMiSecondPart />
               <SobreMiThirdPart />
+              <SobreMiFourthPart />
           </div>
       )
   }
