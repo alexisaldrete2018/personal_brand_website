@@ -143,7 +143,8 @@ function Inicio() {
               <SobreMiThirdPart />
               <SobreMiFourthPart />
               <UnleashMoreButton />
-              <SobreMiFifthPart/>
+              <SobreMiFifthPart />
+              <Footer />
           </div>
       )
   }
