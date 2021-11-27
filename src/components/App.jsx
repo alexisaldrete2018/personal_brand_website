@@ -26,6 +26,7 @@ import SobreMiFirstPart from './SobreMiFirstPart.jsx';
 import SobreMiSecondPart from './SobreMiSecondPart.jsx';
 import SobreMiThirdPart from './SobreMiThirdPart.jsx';
 import SobreMiFourthPart from './SobreMiFourthPart.jsx';
+import SobreMiFifthPart from './SobreMiFifthPart.jsx';
 import UnleashMoreButton from './UnleashMoreButton.jsx';
 
 
@@ -142,6 +143,7 @@ function Inicio() {
               <SobreMiThirdPart />
               <SobreMiFourthPart />
               <UnleashMoreButton />
+              <SobreMiFifthPart/>
           </div>
       )
   }
