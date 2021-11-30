@@ -1,5 +1,4 @@
 import React from "react";
-import SmartTitle2 from "./SmartTitle2";
 
 function ContactInfo(){
     return(

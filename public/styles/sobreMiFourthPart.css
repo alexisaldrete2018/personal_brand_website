@@ -1,0 +1,15 @@
+.sobre-mi-fourth-part-container{
+    padding: 3% 0;
+    box-sizing: border-box;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: white;    
+}
+
+.my-work-description{
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 2rem;
+    margin: 0 20%;
+}

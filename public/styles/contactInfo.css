@@ -1,3 +1,8 @@
+:root{
+    --direction:left;
+    --width: 70%
+}
+
 .contact-info-container{
     margin-left: 10%;
     display: flex;
@@ -23,11 +28,11 @@
 
 .box {
     display: flex;
-    width: 70%;
+    width: var(--width);
 }
 
 .sm-item {
     flex: 1 1 auto;
     display: flex;
-    justify-content: left;
+    justify-content: var(--direction);
 }

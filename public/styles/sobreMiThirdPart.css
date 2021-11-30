@@ -1,0 +1,43 @@
+.sobre-mi-third-part{
+    background-color: black;
+    width: 100%;
+    height: 353.33%;
+    display: flex;
+    flex-direction: column;
+}
+
+.my-passions-first-part{
+    margin-top: 10%;
+    box-sizing: border-box;
+    height: 9.43310786%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-passions-title-container{
+    height: 30%;
+}
+
+.my-passions-description-container{
+    height: 70%;
+}
+
+
+.my-passions-second-part{
+    height: 22.6417230%;
+}
+
+.my-passions-third-part{
+    height: 22.64172304%;
+}
+
+.my-passions-fourth-part{
+    height: 22.64172304%;
+}
+
+.my-passions-fifth-part{
+    height: 22.64172304%;
+}
