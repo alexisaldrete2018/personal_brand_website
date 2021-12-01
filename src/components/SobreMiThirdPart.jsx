@@ -2,11 +2,11 @@ import React from "react";
 import AboutTitleInverted from "./AboutTitleInverted";
 import SmartLabel2 from "./SmartLabel2";
 
-function SobreMiThirdPart(){
+function SobreMiThirdPart(props){
     return(
         <div className="sobre-mi-third-part">
             
-            <div className="my-passions-first-part">
+            <div id={props.id} className="my-passions-first-part">
                 <AboutTitleInverted height="35%" direction="center" titleInverted1="My" titleInverted2="Passions"  />
                 <p>Many things make my day, but these two make me not to work any single day of my life</p>
             </div>
