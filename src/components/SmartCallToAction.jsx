@@ -9,7 +9,11 @@ function SmartCallToAction(props){
                 <p id="smart-call-to-action-paragraph">{props.smartCallToActionParagraph} </p> 
                 <br/>
                 <br/>
-                <button className="button">{props.buttonText}</button>
+
+                <a href={props.href}>
+                    <button className="button">{props.buttonText}</button>
+                </a>
+          
             </div>
         </div>
     )
