@@ -8,7 +8,10 @@ function SmartTitleCTA(props){
                 <h1 id="h1-title-cta-a">{props.h1TitleCTAA} </h1> <h1 id="h1-title-cta-b">{props.h1TitleCTAB}</h1>
                 <br/>
                 <br/>
-                <button className="button">{props.buttonText}</button>
+
+                <a href={props.href}>
+                    <button className="button">{props.buttonText}</button>
+                </a>
             </div>
         </div>
     )
