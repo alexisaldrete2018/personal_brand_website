@@ -37,6 +37,11 @@
     justify-content: center;
 }
 
+.sobre-mi-button-container a{
+    width: 100%;
+    height: 100%;
+}
+
 .sobre-mi-button-container button{
     width: 90%;
 }

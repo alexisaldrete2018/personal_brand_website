@@ -8,14 +8,14 @@ import SobreMiFifthPart from './SobreMiFifthPart.jsx';
 import UnleashMoreButton from './UnleashMoreButton.jsx';
 import Footer from './Footer';
 
-function SobreMi(props){
+function SobreMi(){
     return (
         <div className="sobreMi">
             <SobreMiFirstPart />
             <SobreMiSecondPart id="mi_historia" />
             <SobreMiThirdPart id="mis_pasiones" />
             <SobreMiFourthPart id="mi_trabajo" />
-            <UnleashMoreButton />
+            <UnleashMoreButton href="/sobre_mi#contactame"/>
             <SobreMiFifthPart id="contactame" />
             <Footer />
         </div>
