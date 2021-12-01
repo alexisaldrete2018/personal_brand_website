@@ -21,7 +21,7 @@ function Servicios(props){
             <AboutFifthPart />
             <Footer />  
         </div>
-    )
+    );
 }
 
 export default Servicios;

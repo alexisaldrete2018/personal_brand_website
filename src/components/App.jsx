@@ -1,34 +1,12 @@
 import React from 'react'
 
+
+
+import Inicio from './Inicio';
+import Galeria from './Galeria.jsx';
 import Servicios from './Servicios.jsx'
-
-import FirstPart from './FirstPart.jsx'
-import Navbar from './Navbar.jsx';
-import SecondPart from './SecondPart';
-import ThirdPart from './ThirdPart';
-import Footer from './Footer';
-
-import GalleryFirstPart from './GalleryFirstPart';
-import GallerySecondPart from './GallerySecondPart';
-import Pagination from "./Pagination";
-
-import AboutFirstPart from './AboutFirstPart';
-import AboutTitle from './AboutTitle';
-import AboutSecondPart from './AboutSecondPart';
-import AboutThirdPart from './AboutThirdPart';
-import AboutFourthPart from './AboutFourthPart';
-import AboutFifthPart from './AboutFifthPart.jsx';
-
-import ContactoFirstPart from './ContactoFirstPart';
-import ContactoSecondPart from './ContactoSecondPart';
-
-import SobreMiFirstPart from './SobreMiFirstPart.jsx';
-import SobreMiSecondPart from './SobreMiSecondPart.jsx';
-import SobreMiThirdPart from './SobreMiThirdPart.jsx';
-import SobreMiFourthPart from './SobreMiFourthPart.jsx';
-import SobreMiFifthPart from './SobreMiFifthPart.jsx';
-import UnleashMoreButton from './UnleashMoreButton.jsx';
-
+import SobreMi from './SobreMi.jsx';
+import Contacto from './Contacto.jsx';
 
 import {
     BrowserRouter as Router,
@@ -66,7 +44,7 @@ function App(){
                     <div className="navbar-item"></div>
 
                     <div className="navbar-item">
-                        <NavLink exact to="/experiencia" activeClassName="active-link">CURSOS</NavLink>
+                        <NavLink exact to="/cursos" activeClassName="active-link">CURSOS</NavLink>
                     </div>
 
                     <div className="navbar-item">
@@ -102,51 +80,6 @@ function App(){
     );
 }
 
-function Inicio() {
-    return (
-        <div className="inicio">
-            <FirstPart />
-            <SecondPart />
-            <ThirdPart />
-            <Footer />
-        </div>
-    );
-  }
   
-  function Galeria() {
-    return (
-        <div className="galeria">
-            <GalleryFirstPart />
-            <GallerySecondPart />
-            <Pagination />
-            <Footer />
-        </div>
-    );     
-  }
 
-  function Contacto(){
-      return(
-          <div className="contacto">
-              <ContactoFirstPart/>
-              <AboutTitle title1="GET " title2="IN TOUCH"/>
-              <ContactoSecondPart/>
-              <Footer />
-          </div>
-      )
-  }
-
-  function SobreMi(){
-      return(
-          <div className="sobreMi">
-              <SobreMiFirstPart />
-              <SobreMiSecondPart />
-              <SobreMiThirdPart />
-              <SobreMiFourthPart />
-              <UnleashMoreButton />
-              <SobreMiFifthPart />
-              <Footer />
-          </div>
-      )
-  }
-
-export default App
+export default App;

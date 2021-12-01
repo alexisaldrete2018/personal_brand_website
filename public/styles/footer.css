@@ -25,7 +25,7 @@ img{
 }
 
 .row1-col1 {
-    grid-column: 1 / 7;
+    grid-column: 1 / 8;
     grid-row: 1;
 }
 
@@ -96,14 +96,24 @@ img{
 }
 
 .row2-col6 {
-    padding: 10%;
     grid-column: 6/7;
+    grid-row: 2/5;
+    padding:10%;
+    text-align: center;
+    border-right: solid 2px rgba(255, 255, 255, .5);
+    border-top: solid 2px rgba(255, 255, 255, .5);
+    border-bottom: solid 2px rgba(255, 255, 255, .5); 
+}
+
+.row2-col7 {
+    padding: 10%;
+    grid-column: 7/8;
     grid-row: 2/5;
     border-top: solid 2px rgba(255, 255, 255, .5);
     border-bottom: solid 2px rgba(255, 255, 255, .5);
 }
 
-.links-container a{
+.footer-section-subtitle{
     text-align: left;
     width: 100%;
     margin: 5%;

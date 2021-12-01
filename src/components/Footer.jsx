@@ -11,84 +11,127 @@ function Footer(){
 
                 <div class="row2-col1">
                     <div className="links-container">
-                        <h3>MI MUNDO</h3>
+                    
+                        <a href="/">
+                            <h3>INICIO</h3>
+                        </a>
+
                         <br></br>
-                        <a href="https://www.w3schools.com/">Concept</a>
-                        <a href="https://www.w3schools.com/">Company</a>
-                        <a href="https://www.w3schools.com/">Design</a>
-                        <a href="https://www.w3schools.com/">Services</a>
+                        <a className="footer-section-subtitle" href="/#galeria">Galeria</a>
+                        <a className="footer-section-subtitle" href="/#agendar">Agendar Cita</a>
                     </div>
                 </div>
 
                 <div class="row2-col2">
                     <div className="links-container">
-                        <h3>GALERIA</h3>
+
+                        <a href="/galeria">
+                            <h3>GALERÍA</h3>
+                        </a>
+                        
                         <br></br>
-                        <a href="https://www.w3schools.com/">Concept</a>
-                        <a href="https://www.w3schools.com/">Company</a>
-                        <a href="https://www.w3schools.com/">Design</a>
-                        <a href="https://www.w3schools.com/">Services</a>
+                        <a className="footer-section-subtitle" href="/galeria">Viajes</a>
+                        <a className="footer-section-subtitle" href="/galeria">Bienes Raíces</a>
+                        <a className="footer-section-subtitle" href="/galeria">Comerciales</a>
+                        <a className="footer-section-subtitle" href="/galeria">Cinematografía</a>
+                        <a className="footer-section-subtitle" href="/galeria">Terrenos</a>
                     </div>  
                 </div>
 
                 <div class="row2-col3">
                     <div className="links-container">
-                        <h3>SERVICIOS</h3>
+
+                        <a href="/servicios">
+                            <h3>SERVICIOS</h3>
+                        </a>
+
                         <br></br>
-                        <a href="https://www.w3schools.com/">Concept</a>
-                        <a href="https://www.w3schools.com/">Company</a>
-                        <a href="https://www.w3schools.com/">Design</a>
-                        <a href="https://www.w3schools.com/">Services</a>
+                        <a className="footer-section-subtitle" href="/servicios">Viajes</a>
+                        <a className="footer-section-subtitle" href="/servicios">Bienes Raíces</a>
+                        <a className="footer-section-subtitle" href="/servicios">Comerciales</a>
+                        <a className="footer-section-subtitle" href="/servicios">Cinematografía</a>
+                        <a className="footer-section-subtitle" href="/servicios">Terrenos</a>
                     </div> 
                 </div>
 
                 <div class="row2-col4">
                     <div className="links-container">
-                        <h3>SOBRE MI</h3>
+
+                        <a href="/cursos">
+                            <h3>CURSOS</h3>
+                        </a>
+
                         <br></br>
-                        <a href="https://www.w3schools.com/">Concept</a>
-                        <a href="https://www.w3schools.com/">Company</a>
-                        <a href="https://www.w3schools.com/">Design</a>
-                        <a href="https://www.w3schools.com/">Services</a>
+                        <a className="footer-section-subtitle" href="/cursos">Pendiente</a>
+                        <a className="footer-section-subtitle" href="/cursos">Pendiente</a>
+                        <a className="footer-section-subtitle" href="/cursos">Pendiente</a>
+                        <a className="footer-section-subtitle" href="/cursos">Pendiente</a>
                     </div>                
                 </div>
 
                 <div class="row2-col5">
                     <div className="links-container">
-                        <h3>CONTACTO</h3>
+
+                        <a href="/sobre_mi">
+                            <h3>SOBRE MI</h3>
+                        </a>
+
                         <br></br>
-                        <a href="https://www.w3schools.com/">Concept</a>
-                        <a href="https://www.w3schools.com/">Company</a>
-                        <a href="https://www.w3schools.com/">Design</a>
-                        <a href="https://www.w3schools.com/">Services</a>
+                        <a className="footer-section-subtitle" href="/sobre_mi#mi_historia">Mi Historia</a>
+                        <a className="footer-section-subtitle" href="/sobre_mi#mis_pasiones">Mis Pasiones</a>
+                        <a className="footer-section-subtitle" href="/sobre_mi#mi_trabajo">Mi Trabajo</a>
+                        <a className="footer-section-subtitle" href="/sobre_mi#contactame">Contáctame</a>
                     </div>
                 </div>
 
                 <div class="row2-col6">
+                    <div className="links-container">
+                    
+                        <a href="/contacto">
+                            <h3>CONTACTO</h3>
+                        </a>
+
+                        <br></br>
+                        <a className="footer-section-subtitle" href="/contacto">¿Dónde Buscarme?</a>
+                        <a className="footer-section-subtitle" href="/contacto#contactame">Contáctame</a>
+                    </div>
+                </div>
+
+                <div class="row2-col7">
                     <div className="col6-wrapper">
                         <div class="footer-logo-wrapper">
                             <div className="footer-logo-container">
-                                <img src={process.env.PUBLIC_URL + '/images/logoText.png'} alt="logo" />
+                                <a href="/">
+                                    <img src={process.env.PUBLIC_URL + '/images/logoText.png'} alt="logo" />
+                                </a>
                             </div>
                         </div>
                         <div class="instagram-icon-wrapper">
                             <div className="instagram-icon-container">
-                                <img src={process.env.PUBLIC_URL + '/images/instagram.png'} alt="logo" />
+                                <a href="https://www.instagram.com/alexis.aldrete/">
+                                    <img src={process.env.PUBLIC_URL + '/images/instagram.png'} alt="logo" />
+                                </a>
                             </div>
                         </div>
                         <div class="facebook-icon-wrapper">
                             <div className="facebook-icon-container">
-                                <img src={process.env.PUBLIC_URL + '/images/facebook.png'} alt="logo" />
+                                <a href="https://www.facebook.com/alexisaldretemx/">
+                                    <img src={process.env.PUBLIC_URL + '/images/facebook.png'} alt="logo" />
+                                </a>
                             </div>
                         </div>
                         <div class="tiktok-icon-wrapper">
                             <div className="tiktok-icon-container">
-                                <img src={process.env.PUBLIC_URL + '/images/tiktok.png'} alt="logo" />
+                                <a href="https://www.tiktok.com/@alexis.aldrete?">
+                                    <img src={process.env.PUBLIC_URL + '/images/tiktok.png'} alt="logo" />
+                                </a>  
                             </div>
                         </div>
                         <div class="youtube-icon-wrapper">
                             <div className="youtube-icon-container">
-                                <img src={process.env.PUBLIC_URL + '/images/youtube.png'} alt="logo" />
+                                <a href="https://www.youtube.com/channel/UCehfpeTmMUFGlSQoBbE4l-w">
+                                    <img src={process.env.PUBLIC_URL + '/images/youtube.png'} alt="logo" />
+                                </a>
                             </div>
                         </div> 
                     </div>

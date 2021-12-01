@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 function SmartCallToAction(props){
     return (
@@ -9,10 +9,14 @@ function SmartCallToAction(props){
                 <p id="smart-call-to-action-paragraph">{props.smartCallToActionParagraph} </p> 
                 <br/>
                 <br/>
-                <button className="button">{props.buttonText}</button>
+
+                <a href={props.href}>
+                    <button className="button">{props.buttonText}</button>
+                </a>
+          
             </div>
         </div>
-    )
+    );
 }
 
 export default SmartCallToAction;

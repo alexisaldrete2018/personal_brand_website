@@ -1,9 +1,9 @@
 import React from "react";
 import AboutTitleInverted from "./AboutTitleInverted";
 
-function SobreMiSecondPart(){
+function SobreMiSecondPart(props){
     return(
-        <div className="sobre-mi-second-part">
+        <div id={props.id} className="sobre-mi-second-part">
 
             <div className="my-story-container">
 

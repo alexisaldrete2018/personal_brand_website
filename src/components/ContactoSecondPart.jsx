@@ -1,5 +1,4 @@
 import React from 'react';
-import AboutTitle from './AboutTitle';
 
 function ContactoSecondPart(){
     return(
