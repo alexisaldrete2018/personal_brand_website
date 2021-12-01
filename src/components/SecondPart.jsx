@@ -2,9 +2,9 @@ import React from "react";
 import TitleMenu from "./TitleMenu";
 import CoverflowCarousel from "./CoverflowCarousel";
 
-function SecondPart(){
+function SecondPart(props){
     return(
-        <div className="second-part">
+        <div id={props.id} className="second-part">
             <TitleMenu title="GALERIA" />
             <CoverflowCarousel />
         </div>

@@ -1,12 +1,11 @@
 import React from "react";
 import AboutTitleInverted from "./AboutTitleInverted";
 
-function SobreMiFifthPart(){
+function SobreMiFifthPart(props){
     return(
-        <div className="sobre-mi-fifth-part">
+        <div id={props.id} className="sobre-mi-fifth-part">
             <div className="sobre-mi-contact-container">
                 
-
                 <div className="sobre-mi-contact-title-container">
                     <AboutTitleInverted height="13%" direction="center" titleInverted1="Let's Work" titleInverted2="Together"/>
                 </div>
