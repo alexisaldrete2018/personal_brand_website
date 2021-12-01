@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 function SmartCallToAction(props){
     return (
@@ -16,7 +16,7 @@ function SmartCallToAction(props){
           
             </div>
         </div>
-    )
+    );
 }
 
 export default SmartCallToAction;
