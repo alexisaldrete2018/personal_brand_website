@@ -16,6 +16,7 @@
     font-weight: 400;
     font-size: 1.4rem;
     box-sizing: border-box;
+    z-index: 1;
 }
 
 .contact-info-container h1{
